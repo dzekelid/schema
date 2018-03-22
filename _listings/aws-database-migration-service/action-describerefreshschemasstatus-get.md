@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeRefreshSchemasStatus&k=1:
+  /?Action=DescribeRefreshSchemasStatus:
     get:
       summary: ' Describe Refresh Schemas Status '
       description: Returns the status of the RefreshSchemas operation
