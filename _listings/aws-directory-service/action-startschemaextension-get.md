@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=StartSchemaExtension&k=1:
+  /?Action=StartSchemaExtension:
     get:
       summary: ' Start Schema Extension '
       description: Applies a schema extension to a Microsoft AD directory
