@@ -18,9 +18,9 @@ tags:
 - Stack Network
 - Google APIs
 - Database
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/schema/master/_listings/google-cloud-spanner/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/google-cloud-spanner/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Google Cloud Spanner API
@@ -32,7 +32,7 @@ apis:
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/schema/master/_listings/google-cloud-spanner/v1-database-ddl-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/google-cloud-spanner/v1-database-ddl-get.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
