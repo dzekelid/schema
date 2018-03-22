@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CancelSchemaExtension&k=1:
+  /?Action=CancelSchemaExtension:
     get:
       summary: ' Cancel Schema Extension '
       description: Cancels an in-progress schema extension to a Microsoft AD directory
