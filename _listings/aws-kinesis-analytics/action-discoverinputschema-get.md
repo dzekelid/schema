@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DiscoverInputSchema&k=1:
+  /?Action=DiscoverInputSchema:
     get:
       summary: ' Discover Input Schema '
       description: Infers a schema by evaluating sample records on the specified streaming
