@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSchemas&k=1:
+  /?Action=DescribeSchemas:
     get:
       summary: ' Describe Schemas '
       description: Returns information about the schema for the specified endpoint
