@@ -34,7 +34,7 @@ apis:
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-directory-service/action-listschemaextensions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-directory-service/action-startschemaextension-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
