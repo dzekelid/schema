@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RefreshSchemas&k=1:
+  /?Action=RefreshSchemas:
     get:
       summary: ' Refresh Schemas '
       description: Populates the schema for the specified endpoint
