@@ -20,9 +20,9 @@ tags:
 - Microsoft
 - Data
 - Analysis
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/schema/master/_listings/azure-data-lake-analytics/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Data Lake Analytics API
@@ -35,7 +35,7 @@ apis:
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-statistics-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
