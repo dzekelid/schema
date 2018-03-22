@@ -32,7 +32,7 @@ apis:
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/google-cloud-spanner/v1-database-ddl-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/google-cloud-spanner/v1-database-ddl-patch.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/spanner/docs/release-notes
