@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListSchemaExtensions&k=1:
+  /?Action=ListSchemaExtensions:
     get:
       summary: ' List Schema Extensions '
       description: Lists all schema extensions applied to a Microsoft AD Directory
