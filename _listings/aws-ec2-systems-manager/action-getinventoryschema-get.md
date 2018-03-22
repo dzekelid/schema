@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetInventorySchema&k=1:
+  /?Action=GetInventorySchema:
     get:
       summary: ' Get Inventory Schema '
       description: |-
