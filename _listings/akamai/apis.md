@@ -33,7 +33,7 @@ apis:
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/akamai/papi-v0-schemas-request-filename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/akamai/papi-v0-schemas-products-productid-ruleformat-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
