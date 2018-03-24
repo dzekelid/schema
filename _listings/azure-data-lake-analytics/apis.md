@@ -35,7 +35,7 @@ apis:
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-statistics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
