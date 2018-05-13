@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 Systems Manager API
+  title: Amazon EC2 Systems Manager API Get Inventory Schema
   version: 1.0.0
+  description: |-
+    Return a list of inventory type names for the account, or return a list of attribute
+       names for a specific Inventory item type.
 schemes:
 - http
 produces:
