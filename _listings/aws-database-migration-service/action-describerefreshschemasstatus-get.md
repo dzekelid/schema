@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Describe Refresh Schemas Status
   version: 1.0.0
+  description: Returns the status of the RefreshSchemas operation.
 schemes:
 - http
 produces:
