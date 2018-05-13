@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API Get a Request&#8217;s JSON Schema
-  description: Get a Request&#8217;s JSON Schema
+- name: Akamai API Get a Rule Format&#8217;s JSON Schema
+  description: Get a Rule Format&#8217;s JSON Schema
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/akamai/papi-v0-schemas-request-filename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/akamai/papi-v0-schemas-products-productid-ruleformat-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
