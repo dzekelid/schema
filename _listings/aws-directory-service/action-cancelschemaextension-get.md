@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Cancel Schema Extension
   version: 1.0.0
+  description: Cancels an in-progress schema extension to a Microsoft AD directory.
 schemes:
 - http
 produces:
