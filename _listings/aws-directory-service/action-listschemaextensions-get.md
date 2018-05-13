@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API List Schema Extensions
   version: 1.0.0
+  description: Lists all schema extensions applied to a Microsoft AD Directory.
 schemes:
 - http
 produces:
