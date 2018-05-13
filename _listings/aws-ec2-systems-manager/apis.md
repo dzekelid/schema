@@ -37,7 +37,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-ec2-systems-manager/action-getinventoryschema-get.md
+- name: Amazon EC2 Systems Manager API Get Inventory Schema
+  description: |-
+    Return a list of inventory type names for the account, or return a list of attribute
+       names for a specific Inventory item type.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: http:://{host}//
+  tags: Schema
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-ec2-systems-manager/action-getinventoryschema-get.md
 x-common:
+- type: x-documentation
+  url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/ec2/systems-manager/faqs/
+- type: x-getting-started
+  url: http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/systems-manager.html
+- type: x-website
+  url: https://aws.amazon.com/ec2/systems-manager/
 - type: x-documentation
   url: http://docs.aws.amazon.com/ssm/latest/APIReference/Welcome.html
 - type: x-faq
