@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Database Migration Service API
+  title: AWS Database Migration Service API Describe Schemas
   version: 1.0.0
+  description: Returns information about the schema for the specified endpoint.
 schemes:
 - http
 produces:
