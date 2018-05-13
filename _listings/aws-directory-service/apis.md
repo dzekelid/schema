@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-directory-service/action-startschemaextension-get.md
-- name: AWS Directory Service API Cancel Schema Extension
-  description: Cancels an in-progress schema extension to a Microsoft AD directory.
+- name: AWS Directory Service API List Schema Extensions
+  description: Lists all schema extensions applied to a Microsoft AD Directory.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
   humanURL: https://aws.amazon.com/directoryservice/
   baseURL: http:://{host}//
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-directory-service/action-cancelschemaextension-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-directory-service/action-listschemaextensions-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
