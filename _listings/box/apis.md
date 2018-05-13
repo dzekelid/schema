@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templates-scope-template-schema-put.md
-- name: Box Create Metadata Template
-  description: Used to create a new metadata template with the specified schema.
+- name: Box Get Metadata Template
+  description: Used to retrieve the schema for a given metadata template.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templates-schema-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templates-scope-template-schema-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templates-scope-template-schema-get-postman.md
 x-common:
 - type: x-base
   url: https://api.box.com/
