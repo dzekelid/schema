@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-database-migration-service/action-refreshschemas-get.md
-- name: AWS Database Migration Service API Describe Schemas
-  description: Returns information about the schema for the specified endpoint.
+- name: AWS Database Migration Service API Refresh Schemas
+  description: Populates the schema for the specified endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-icon-dms.png
   humanURL: https://aws.amazon.com/dms/
   baseURL: http:://{host}//
   tags: Schema
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-database-migration-service/action-describeschemas-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/aws-database-migration-service/action-refreshschemas-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/dms/latest/APIReference/Welcome.html
