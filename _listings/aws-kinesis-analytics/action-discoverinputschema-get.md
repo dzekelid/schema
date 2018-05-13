@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Kinesis Analytics API
+  title: AWS Kinesis Analytics API Discover Input Schema
   version: 1.0.0
+  description: Infers a schema by evaluating sample records on the specified streaming
+    source (Amazon Kinesis stream or Amazon Kinesis Firehose delivery stream).
 schemes:
 - http
 produces:
