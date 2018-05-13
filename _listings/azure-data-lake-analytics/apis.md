@@ -36,7 +36,30 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-get.md
+- name: Azure Data Lake Analytics API Catalog List Table Statistics By Database And
+    Schema
+  description: Retrieves the list of all table statistics within the specified schema
+    from the Data Lake Analytics catalog.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-lake-analytics-05.png
+  humanURL: https://azure.microsoft.com/en-us/services/data-lake-analytics/
+  baseURL: http:://{host}//
+  tags: Schema
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-statistics-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/azure-data-lake-analytics/catalog-usql-databases-databasename-schemas-schemaname-statistics-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/data-lake-analytics/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/data-lake-analytics/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/data-lake-analytics/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/data-lake-analytics/
 - type: x-pricing
