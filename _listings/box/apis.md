@@ -1,49 +1,60 @@
 ---
 name: Box
-description: Box Inc. (formerly Box.net) is an online file sharing and Cloud content
-  management service for enterprise companies. The company has adopted a freemium
-  business model, and provides 5 GB of free storage [3] for personal accounts. A mobile
-  version of the service is available for Android, BlackBerry, iOS, WebOS, and Windows
-  Phone devices. The company is based in Los Altos, California.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+x-slug: box
+description: Box is changing how you manage content across your business from simple
+  file sharing to building custom apps.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Storage
-- Storage
-- Stack Network
-- Stack
-- Sharing
-- Road Map
-- Publishing
-- Productivity
-- Files
-- Collaboration
-- Backup
-created: "2018-03-24"
-modified: "2018-03-24"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/apis.yaml
+x-alexaRank: "445"
+tags: Schema
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Box
-  description: Box Inc
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
-  humanURL: ""
-  baseURL: https://api.box.com//2.0
-  tags: Schema
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templates-scope-template-schema-put.md
-- name: Box Update Metadata Template
-  description: Used to update the schema of an existing template.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/box1200x630.jpg
+- name: Box - Create Metadata Template
+  x-api-slug: metadata-templatesschema-post
+  description: Used to create a new metadata template with the specified schema.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
   humanURL: http://box.com
   baseURL: https://api.box.com//2.0
-  tags: Schema
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templates-scope-template-schema-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templatesschema-post-openapi.md
+- name: Box - Get Metadata Template
+  x-api-slug: metadata-templatesscopetemplateschema-get
+  description: Used to retrieve the schema for a given metadata template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templatesscopetemplateschema-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templatesscopetemplateschema-get-openapi.md
+- name: Box - Update Metadata Template
+  x-api-slug: metadata-templatesscopetemplateschema-put
+  description: Used to update the schema of an existing template.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg
+  humanURL: http://box.com
+  baseURL: https://api.box.com//2.0
+  tags: Files, Collaboration, Sharing, Storage, Storage, Stack Network, Stack, Productivity,
+    SaaS, Technology, Enterprise, API Provider, Profiles, Publish, Service API, Relative
+    Data, Relative StreamRank, Streams, Backups
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/schema/master/_listings/box/metadata-templatesscopetemplateschema-put-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://botify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://box.stack.network
 - type: x-base
   url: https://api.box.com/
 - type: x-blog
@@ -52,36 +63,20 @@ x-common:
   url: http://blog.box.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/box
-- type: x-developer
-  url: http://developers.box.com
-- type: x-github
-  url: https://github.com/boxdotnet
-- type: x-pricing
-  url: https://developers.box.com/box-platform-pricing/
-- type: x-road-map
-  url: https://developers.box.com/roadmap/
-- type: x-twitter
-  url: https://twitter.com/BoxPlatform
-- type: x-website
-  url: http://box.com
-- type: x-base
-  url: https://api.box.com/
-- type: x-blog
-  url: http://blog.box.com/
-- type: x-blog-rss
-  url: http://blog.box.com/feed/
 - type: x-crunchbase
-  url: http://www.crunchbase.com/company/box
+  url: https://crunchbase.com/organization/box
 - type: x-developer
   url: http://developers.box.com
 - type: x-github
-  url: https://github.com/boxdotnet
+  url: https://github.com/box
 - type: x-pricing
   url: https://developers.box.com/box-platform-pricing/
 - type: x-road-map
   url: https://developers.box.com/roadmap/
 - type: x-twitter
   url: https://twitter.com/BoxPlatform
+- type: x-twitter
+  url: https://twitter.com/BoxHQ
 - type: x-website
   url: http://box.com
 include: []
